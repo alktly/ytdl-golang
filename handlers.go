@@ -22,7 +22,7 @@ type format struct {
 }
 
 func welcome(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Deepware YTDownloader API"))
+	w.Write([]byte("YTDownloader API"))
 }
 
 func downloadHandler(w http.ResponseWriter, r *http.Request) {
